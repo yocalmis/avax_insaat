@@ -1,0 +1,232 @@
+
+
+.suite-wrap {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  float: left;
+  margin-bottom: 10rem;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+@media (max-width: 767.98px) {
+  .suite-wrap {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+}
+
+.suite-wrap.overlap-image-1 .suite {
+  width: 60%;
+  float: left;
+}
+
+@media (max-width: 767.98px) {
+  .suite-wrap.overlap-image-1 .suite {
+    width: 100%;
+  }
+}
+
+.suite-wrap.overlap-image-1 .suite img {
+  max-width: 100% !important;
+}
+
+.suite-wrap.overlap-image-1 .suite .image-stack:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.suite-wrap.overlap-image-1 .suite .image-stack .image-stack-item {
+  overflow: hidden;
+  position: relative;
+}
+
+.suite-wrap.overlap-image-1 .suite .image-stack .image-stack-item .overlay {
+  z-index: 4;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  -webkit-transform: scale(1.7);
+  -ms-transform: scale(1.7);
+  transform: scale(1.7);
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.suite-wrap.overlap-image-1 .suite .image-stack .image-stack-item img {
+  position: relative;
+}
+
+.suite-wrap.overlap-image-1 .suite .image-stack .image-stack-item.image-stack-item-top {
+  float: left;
+  width: 55%;
+  margin-top: -10%;
+  margin-right: -100%;
+  position: relative;
+  z-index: 1;
+}
+
+.suite-wrap.overlap-image-1 .suite .image-stack .image-stack-item.image-stack-item-bottom {
+  float: right;
+  width: 75%;
+}
+
+.suite-wrap.overlap-image-1 .suite-contents {
+  z-index: 10;
+  width: 30%;
+  margin-top: 5%;
+  position: relative;
+  float: left;
+  margin-left: 50px;
+}
+
+@media (max-width: 767.98px) {
+  .suite-wrap.overlap-image-1 .suite-contents {
+    float: left;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.suite-wrap.overlap-image-1 .suite-contents .suite-title {
+  color: #000;
+  font-size: 4rem;
+  margin-bottom: 30px;
+  line-height: 0;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.suite-wrap.overlap-image-1 .suite-contents .suite-title > span {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+
+.suite-wrap.overlap-image-1 .suite-contents .suite-title > span > span {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.suite-wrap.overlap-image-1 .suite-contents .suite-excerpt {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.7;
+}
+
+.suite-wrap.overlap-image-2 .suite {
+  float: right;
+  width: 70%;
+}
+
+@media (max-width: 767.98px) {
+  .suite-wrap.overlap-image-2 .suite {
+    width: 100%;
+  }
+}
+
+.suite-wrap.overlap-image-2 .suite .image-stack:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.suite-wrap.overlap-image-2 .suite .image-stack .image-stack-item {
+  overflow: hidden;
+  position: relative;
+}
+
+.suite-wrap.overlap-image-2 .suite .image-stack .image-stack-item .overlay {
+  z-index: 4;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  -webkit-transform: scale(1.7);
+  -ms-transform: scale(1.7);
+  transform: scale(1.7);
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.suite-wrap.overlap-image-2 .suite .image-stack .image-stack-item img {
+  position: relative;
+}
+
+.suite-wrap.overlap-image-2 .suite .image-stack .image-stack-item.image-stack-item-top {
+  float: left;
+  width: 75%;
+  margin-top: 0%;
+  margin-right: -100%;
+  margin-left: 0%;
+  position: relative;
+  z-index: 1;
+}
+
+.suite-wrap.overlap-image-2 .suite .image-stack .image-stack-item.image-stack-item-bottom {
+  float: right;
+  width: 55%;
+  position: relative;
+  z-index: 2;
+  margin-top: 30%;
+}
+
+.suite-wrap.overlap-image-2 .suite-contents {
+  z-index: 3;
+  position: relative;
+  width: 28%;
+  float: right;
+  margin-top: 10%;
+}
+
+@media (max-width: 767.98px) {
+  .suite-wrap.overlap-image-2 .suite-contents {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+.suite-wrap.overlap-image-2 .suite-contents .suite-title {
+  color: #000;
+  font-size: 4rem;
+  margin-bottom: 30px;
+  line-height: 0;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.suite-wrap.overlap-image-2 .suite-contents .suite-title > span {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+
+.suite-wrap.overlap-image-2 .suite-contents .suite-title > span > span {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.suite-wrap.overlap-image-2 .suite-contents .suite-excerpt {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.7;
+}
+
+

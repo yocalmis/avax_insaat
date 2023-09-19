@@ -1,0 +1,252 @@
+.yukselt
+{
+    padding-top: 50px;
+}
+.ilogo
+{
+	width: 100px;
+}
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.navbar-brand img {
+    width: 100px;
+    margin: -2px 0 0;
+    margin-top: -10px;
+}
+}
+@media only screen and (max-width: 1000px) {
+.navbar-brand img {
+    width: 100px;
+    margin: -2px 0 0;
+    margin-top: -15px;
+}
+}
+.navbar-brand img {
+    max-height: 60px;
+    max-width: 105px;
+}
+@media only screen and (max-width: 1000px) {
+.mainmenu {
+    padding: 20px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+}
+.blogus
+{
+	max-height: 73px; margin-bottom: 15px; 
+}
+
+.slides.owl-carousel .owl-dots {
+    position: absolute;
+    padding-bottom: 50px;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    text-align: center;
+}
+
+.blog-post-social {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0 15px;
+}
+
+.text-muted {
+    color: #8c8c8c !important;
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem !important;
+}
+
+body
+{     background-image: url(../images/log.jpg) ;
+    background-repeat: repeat;
+
+	line-height: 1.5;
+}
+
+.pb-3, .py-3 {
+    padding-bottom: 1rem !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+.pl-2, .px-2 {
+    padding-left: .5rem !important;
+}
+.pr-2, .px-2 {
+    padding-right: .5rem !important;
+}
+.pb-1, .py-1 {
+    padding-bottom: .25rem !important;
+}
+.pt-1, .py-1 {
+    padding-top: .25rem !important;
+}
+.d-inline-block {
+    display: inline-block !important;
+}
+.bg-info {
+    background-color: #5695fe !important;
+}
+
+.ortalax
+{
+	transition: 0.3s;
+	padding-top: 5px;
+	margin-top: 10px;
+	margin:15px 15px 15px 5px;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+    border-radius: 25px 0;
+}
+#testimonial1
+{
+    background-color: #f5f5f5;
+}
+
+.section-big
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+#testimonial {
+    background-image: url(../images/banner2-10.jpg);
+    background-attachment: fixed;
+}
+
+
+/* aşagısı galeri için */
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+.container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+.breadcrumb {
+    background-color: transparent !important;
+}
+
+/* galeri bitiş */
+
+
+.default-padding {
+    padding: 0px 0 80px !important;
+}
+
+.kekelic
+{
+    margin:auto;
+}
+
+
+.client-comment p {
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+
+.owl-carousel .owl-item img {
+    border-radius: 8px;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
+    -webkit-box-shadow: 0px 0px 0px;
+    -o-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    border-radius: 0px;
+    padding: 0;
+    width: 160px;
+    background: #fff;
+    border: solid 1px #e0e0e0;
+    border-top: solid 5px #3094f1;
+    left: 0;
+}
+.menux1
+{
+    color: #6f6f6f;
+}
+.menux1 a:hover  {
+    color: #3094f1 !important;
+}
+
+.paddings-1
+{
+    padding-top: 50px;
+}
+
+.client-img
+{
+    border-radius: 0%;
+
+
+}
+.p0{
+    padding: 0;
+}

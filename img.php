@@ -1,0 +1,1 @@
+<img src="assets_user/images/logo.png" height="60" alt="welcome" />
